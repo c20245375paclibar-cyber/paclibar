@@ -1,0 +1,120 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    color: #2f3437;
+    background: #e5e7e9;
+}
+
+body > h1 {
+    padding: 28px 20px;
+    color: #ffffff;
+    background: linear-gradient(135deg, #5b6c7e, #6c757d);
+    text-align: center;
+    font-size: clamp(2rem, 5vw, 3.2rem);
+    letter-spacing: 1px;
+}
+
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background: #f8f9fa;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.12);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    padding: 15px 20px;
+    list-style: none;
+}
+
+nav a {
+    display: block;
+    padding: 9px 18px;
+    color: #495057;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 20px;
+    transition: 0.3s ease;
+}
+
+nav a:hover,
+nav a:focus {
+    color: #ffffff;
+    background-color: #495057;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 25px;
+}
+
+label {
+    margin-top: 10px;
+    color: #343a40;
+    font-weight: bold;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 13px 15px;
+    color: #343a40;
+    background-color: #ffffff;
+    border: 1px solid #adb5bd;
+    border-radius: 7px;
+    outline: none;
+    font: inherit;
+    transition: 0.3s ease;
+}
+
+input:focus,
+textarea:focus {
+    border-color: #495057;
+    box-shadow: 0 0 0 3px rgba(73, 80, 87, 0.15);
+}
+
+textarea {
+    min-height: 130px;
+    resize: vertical;
+}
+
+button {
+    align-self: flex-start;
+    margin-top: 15px;
+    padding: 5px 10px;
+    color: #ffffff;
+    background: linear-gradient(135deg, #343a40, #6c757d);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font: inherit;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+button:hover,
+button:focus {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 15px rgba(52, 58, 64, 0.3);
+}
+
+ 
+.about-me {
+    color: blue;
+}
+   
+.services {
+    color: gray;
+   
+}
+.contacts {
+    color: gray;
+}
