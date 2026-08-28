@@ -9,7 +9,7 @@ ul {
 nav {
     display: flex;
     justify-content: space-between;
-    align-content: center;
+    align-items: center;
     margin-left: 100px;
     margin-right: 100px;
 }
@@ -17,6 +17,8 @@ nav {
 nav ul {
     display: flex;
     gap: 20px;
+    padding: 0;
+    margin: 0;
 }
 
 main {
@@ -25,6 +27,7 @@ main {
     gap: 30px;
     padding: 50px;
     margin: 50px;
+    max-width: 1200px;
 }
 
 main section {
@@ -40,6 +43,32 @@ form {
     gap: 20px;
 }
 
-#services {
-    padding: 0 50px;
+@media (max-width: 600px) {
+    nav {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    main {
+        padding: 15px;
+        margin: 10px;
+        gap: 20px;
+    }
+
+    main section {
+        flex: 1 1 100%;
+        min-width: 0;
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 100px;
+        color: red;
+    }
+
 }
