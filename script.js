@@ -26,7 +26,10 @@ function greet(greetings, names = []) {
 console.log(greet("Mayung aga", ["Mark", "Bai", "Soy", "Tol", "Erp"]));
 
 const heading = document.querySelector("h1");
-heading.textContent = "Your father's Name";
+heading.textContent = "Armin Paclibar";
+heading.style.color = "purple";
+heading.style.backgroundColor = "yellow";
+heading.style.fontSize = "100px";
 console.log(heading.textContent);
 
 const contactsHeading = document.querySelector("#contact h2");
@@ -34,4 +37,6 @@ console.log(contactsHeading);
 
 const projectHeading = document.querySelector("#services h2");
 console.log(projectHeading);
+
+
 
