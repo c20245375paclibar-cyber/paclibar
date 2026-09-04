@@ -18,7 +18,6 @@ function greet(greetings, names = []) {
 
     if (Array.isArray(names)) {
         names = names.join(', ');
-
     }
 
     return `${greetings} sa enyu ${names}`;
@@ -26,6 +25,8 @@ function greet(greetings, names = []) {
 
 console.log(greet("Mayung aga", ["Mark", "Bai", "Soy", "Tol", "Erp"]));
 
+const heading = document.querySelector("h1");
+console.log(heading);
 
-
-
+const servicesHeading = document.querySelector("#services h2");
+console.log(servicesHeading);

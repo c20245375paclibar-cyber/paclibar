@@ -10,8 +10,8 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 nav ul {
@@ -27,14 +27,13 @@ main {
     gap: 30px;
     padding: 50px;
     margin: 50px;
-    max-width: 1200px;
 }
 
 main section {
     flex: 1;
     min-width: 280px;
     border: 2px solid black;
-    padding: 20px;
+    padding: 20px
 }
 
 form {
@@ -76,7 +75,6 @@ form {
     h2 {
         font-size: 48px;
         color: blue;
-
     }
 }
 
@@ -85,16 +83,16 @@ nav a {
 }
 
 nav a:hover {
-    color: pink
+    color: pink;
 }
 
 button {
-    transition: background-color 0.3s ease;
     background-color: black;
     color: white;
-    border-radius: 10px;
-    border: none;
     padding: 12px 24px;
+    border: none;
+    border-radius: 10px;
+    transition: background-color 1s ease;
 }
 
 button:hover {
